@@ -1,18 +1,18 @@
--- my colorscheme
+-- Eight-color scheme
 local lexers = vis.lexers
 -- dark
 lexers.STYLE_DEFAULT = 'fore:default,back:default'
 lexers.STYLE_NOTHING = 'back:black'
 lexers.STYLE_CLASS = 'fore:yellow'
 lexers.STYLE_COMMENT = 'fore:black,bold'
-lexers.STYLE_CONSTANT = 'fore:cyan'
+lexers.STYLE_CONSTANT = 'fore:blue'
 lexers.STYLE_DEFINITION = 'fore:blue'
 lexers.STYLE_ERROR = 'fore:red,italics'
 lexers.STYLE_FUNCTION = 'fore:blue'
 lexers.STYLE_KEYWORD = 'fore:yellow'
 lexers.STYLE_LABEL = 'fore:green'
 lexers.STYLE_NUMBER = 'fore:red'
-lexers.STYLE_OPERATOR = 'fore:cyan'
+lexers.STYLE_OPERATOR = 'fore:blue'
 lexers.STYLE_REGEX = 'fore:green'
 lexers.STYLE_STRING = 'fore:red'
 lexers.STYLE_PREPROCESSOR = 'fore:magenta,bold'
@@ -30,8 +30,8 @@ lexers.STYLE_CURSOR_PRIMARY = lexers.STYLE_CURSOR..',fore:yellow'
 lexers.STYLE_CURSOR_LINE = 'underlined'
 lexers.STYLE_COLOR_COLUMN = 'back:red'
 lexers.STYLE_SELECTION = 'back:white'
-lexers.STYLE_STATUS = 'fore:white,back:black'
-lexers.STYLE_STATUS_FOCUSED = 'fore:white,back:black,bold'
+lexers.STYLE_STATUS = 'fore:black,back:white'
+lexers.STYLE_STATUS_FOCUSED = 'fore:default,back:default,bold'
 lexers.STYLE_SEPARATOR = lexers.STYLE_DEFAULT
 lexers.STYLE_INFO = 'fore:default,back:default'
 lexers.STYLE_EOF = ''

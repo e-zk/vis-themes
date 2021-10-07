@@ -6,11 +6,11 @@ local lexers = vis.lexers
 local colors = {
 	["def"] = 'fore:default,back:default',
 	["B0"] = '8',
-	["B1"] = '11',
+	["B1"] = '1',
 	["B2"] = '3',
 	["B3"] = '1',
 	["B4"] = '9',
-	["B5"] = '7',
+	["B5"] = '6',
 }
 
 lexers.STYLE_DEFAULT = colors.def
@@ -43,7 +43,7 @@ lexers.STYLE_CURSOR_LINE = 'underlined'
 lexers.STYLE_COLOR_COLUMN = 'back:red'
 lexers.STYLE_SELECTION = 'back:'..colors.B1
 lexers.STYLE_STATUS = 'fore:7,back:0'
-lexers.STYLE_STATUS_FOCUSED = 'fore:7,back:8,bold'
+lexers.STYLE_STATUS_FOCUSED = 'fore:white,back:8,bold'
 lexers.STYLE_SEPARATOR = lexers.STYLE_DEFAULT
 lexers.STYLE_INFO = 'fore:default,back:default'
 lexers.STYLE_EOF = ''
