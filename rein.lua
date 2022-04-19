@@ -9,7 +9,7 @@ local colors = {
 	["B1"] = '11',
 	["B2"] = '3',
 	["B3"] = '1',
-	["B4"] = '9',
+	["B4"] = '1',
 	["B5"] = '7',
 }
 
@@ -36,14 +36,14 @@ lexers.STYLE_EMBEDDED = 'back:blue'
 lexers.STYLE_IDENTIFIER = ''
 
 lexers.STYLE_LINENUMBER = 'fore:'..colors.B0
-lexers.STYLE_LINENUMBER_CURSOR = lexers.STYLE_LINENUMBER
+lexers.STYLE_LINENUMBER_CURSOR = 'fore:7'
 lexers.STYLE_CURSOR = 'reverse'
 lexers.STYLE_CURSOR_PRIMARY = lexers.STYLE_CURSOR..',fore:yellow'
 lexers.STYLE_CURSOR_LINE = 'underlined'
 lexers.STYLE_COLOR_COLUMN = 'back:red'
-lexers.STYLE_SELECTION = 'back:'..colors.B1
-lexers.STYLE_STATUS = 'fore:7,back:0'
-lexers.STYLE_STATUS_FOCUSED = 'fore:7,back:8,bold'
+lexers.STYLE_SELECTION = 'back:'..colors.B0..'fore:default'
+lexers.STYLE_STATUS = 'fore:default,back:0'
+lexers.STYLE_STATUS_FOCUSED = 'fore:7,back:0,bold'
 lexers.STYLE_SEPARATOR = lexers.STYLE_DEFAULT
 lexers.STYLE_INFO = 'fore:default,back:default'
 lexers.STYLE_EOF = ''
